@@ -16,7 +16,10 @@ import java.util.Map;
  */
 public class StockList {
     private final Map<String, StockItem> list;
-
+    
+    public void myMethod() {
+    	
+    }
     public StockList() {
         this.list = new LinkedHashMap<>();
     }
